@@ -1,10 +1,10 @@
 import React from 'react';
 
-function InputId({ label = '', type = 'text' }) {
+function InputId({ label = '', props }) {
   return (
     <div>
       <label>{label}</label>
-      <input type={type}></input>
+      <input {...props}></input>
     </div>
   );
 }

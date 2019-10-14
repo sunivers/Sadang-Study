@@ -1,24 +1,12 @@
 import React from 'react';
-import Input from './components/Input.js';
-import Button from './components/Button.js';
-import styled from 'styled-components';
+import ThemeView from './views/Theme.js';
 
-function App() {
+const App = props => {
   return (
-    <Wrap>
-      <h2>Log In</h2>
-      <Input label="E-mail" type="text"></Input>
-      <Input label="PW" type="password"></Input>
-      <Button></Button>
-    </Wrap>
+    <div>
+      <ThemeView></ThemeView>
+    </div>
   );
-}
-
-const Wrap = styled.div`
-  width: 500px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid #eee;
-`;
+};
 
 export default App;
