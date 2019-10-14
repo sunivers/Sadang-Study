@@ -1,0 +1,4 @@
+1. 앵귤러는 MVVM, vue는 MVC, react는 딱히 패턴이 없다. react는 다른 프론트엔드 프레임웤에 비해 자동으로 변경되지 않는다.
+2. npx는 npm 패키지를 글로벌로 설치하는걸 싫어하는 사람들을 위해 나왔다.
+3. CRA 설치하여 프로젝트 세팅 npx create-react-app [project-name] 
+4. styled component 사용하면 컴포넌트 내에서 스타일 다루기 수월하다.
